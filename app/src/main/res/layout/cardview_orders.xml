@@ -7,6 +7,7 @@
     android:layout_marginRight="10dp"
     android:layout_marginTop="10dp"
     android:layout_marginLeft="10dp"
+    android:background="#EEE8AA"
     app:cardCornerRadius="10dp"
     >
 
