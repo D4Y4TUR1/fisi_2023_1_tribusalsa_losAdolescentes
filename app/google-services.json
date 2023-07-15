@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "671896343206",
+    "project_id": "kotlin-delivery",
+    "storage_bucket": "kotlin-delivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671896343206:android:9b077dc63836d62bd11a67",
+        "android_client_info": {
+          "package_name": "com.optic.deliverykotlinudemy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671896343206-ijeor3qgcvem3k9fom52rdh4gjk5pef1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.optic.deliverykotlinudemy",
+            "certificate_hash": "b92ab5faab63ea9ece99d68dc56bf173571ef7af"
+          }
+        },
+        {
+          "client_id": "671896343206-ctf6jgclqturuds78ja2v0ra13e9j55r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVUy3Pcqj6eeLAidBArrQ_jXZnFeWKzCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671896343206-ctf6jgclqturuds78ja2v0ra13e9j55r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
