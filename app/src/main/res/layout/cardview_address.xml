@@ -23,7 +23,7 @@
                 android:textColor="@color/black"/>
 
             <TextView
-                android:id="@+id/textview_neighborhood"
+                android:id="@+id/textview_neightborhood"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Barrio"

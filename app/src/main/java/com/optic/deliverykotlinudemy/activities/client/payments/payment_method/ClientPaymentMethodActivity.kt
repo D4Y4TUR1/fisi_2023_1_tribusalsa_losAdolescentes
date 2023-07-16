@@ -21,7 +21,7 @@ class ClientPaymentMethodActivity : AppCompatActivity() {
         setContentView(R.layout.activity_client_payment_method)
 
         imageViewMercadoPago = findViewById(R.id.imageview_mercadopago)
-        imageViewPaypal = findViewById(R.id.imageview_paypal)
+        //imageViewPaypal = findViewById(R.id.imageview_paypal)
         toolbar = findViewById(R.id.toolbar)
 
         toolbar?.setTitleTextColor(ContextCompat.getColor(this, R.color.black))

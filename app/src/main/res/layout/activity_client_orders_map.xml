@@ -45,7 +45,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/textview_neighborhood"
+                    android:id="@+id/textview_neightborhood"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nombre del barrio"

@@ -52,7 +52,7 @@ class AddressAdapter(val context: Activity, val address: ArrayList<Address>): Re
         }
 
         holder.textViewAddress.text = a.address
-        holder.textViewNeighborhood.text = a.neighborhood
+        holder.textViewNeightborhood.text = a.neightborhood
 
         holder.itemView.setOnClickListener {
 
@@ -73,12 +73,12 @@ class AddressAdapter(val context: Activity, val address: ArrayList<Address>): Re
     class AddressViewHolder(view: View): RecyclerView.ViewHolder(view) {
 
         val textViewAddress: TextView
-        val textViewNeighborhood: TextView
+        val textViewNeightborhood: TextView
         val imageViewCheck: ImageView
 
         init {
             textViewAddress = view.findViewById(R.id.textview_address)
-            textViewNeighborhood = view.findViewById(R.id.textview_neighborhood)
+            textViewNeightborhood = view.findViewById(R.id.textview_neightborhood)
             imageViewCheck = view.findViewById(R.id.imageview_check)
         }
 

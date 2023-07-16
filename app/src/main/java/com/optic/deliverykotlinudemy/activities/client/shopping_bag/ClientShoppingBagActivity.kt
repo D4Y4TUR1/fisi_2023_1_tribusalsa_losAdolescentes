@@ -45,7 +45,7 @@ class ClientShoppingBagActivity : AppCompatActivity() {
         toolbar = findViewById(R.id.toolbar)
 
         toolbar?.setTitleTextColor(ContextCompat.getColor(this, R.color.black))
-        toolbar?.title = "Tu orden"
+        toolbar?.title = "Tu carrito"
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 

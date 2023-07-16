@@ -20,13 +20,6 @@
             android:layout_height="200dp"
             android:src="@drawable/mercadopago" />
 
-        <ImageView
-            android:id="@+id/imageview_paypal"
-            android:layout_width="180dp"
-            android:layout_height="180dp"
-            android:src="@drawable/paypal"
-            android:layout_marginTop="20dp"/>
-
     </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -73,7 +73,7 @@ class ClientOrdersMapActivity : AppCompatActivity(), OnMapReadyCallback {
 
     var textViewClient: TextView? = null
     var textViewAddress: TextView? = null
-    var textViewNeighborhood: TextView? = null
+    var textViewNeightborhood: TextView? = null
     var circleImageUser: CircleImageView? = null
     var imageViewPhone: ImageView? = null
 
@@ -134,7 +134,7 @@ class ClientOrdersMapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         textViewClient = findViewById(R.id.textview_client)
         textViewAddress = findViewById(R.id.textview_address)
-        textViewNeighborhood = findViewById(R.id.textview_neighborhood)
+        textViewNeightborhood = findViewById(R.id.textview_neightborhood)
         circleImageUser = findViewById(R.id.circleimage_user)
         imageViewPhone = findViewById(R.id.imageview_phone)
 
@@ -143,7 +143,7 @@ class ClientOrdersMapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         textViewClient?.text = "${order?.delivery?.name} ${order?.delivery?.lastname}"
         textViewAddress?.text = order?.address?.address
-        textViewNeighborhood?.text = order?.address?.neighborhood
+        textViewNeightborhood?.text = order?.address?.neightborhood
 
         if (!order?.client?.image.isNullOrBlank()) {
             Glide.with(this).load(order?.client?.image).into(circleImageUser!!)

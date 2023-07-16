@@ -31,7 +31,7 @@ class ClientAddressCreateActivity : AppCompatActivity() {
     var toolbar: Toolbar? = null
     var editTextRefPoint: EditText? = null
     var editTextAddress: EditText? = null
-    var editTextNeighborhood: EditText? = null
+    var editTextNeightborhood: EditText? = null
     var buttonCreateAddress: Button? = null
 
     var addressLat = 0.0
@@ -53,7 +53,7 @@ class ClientAddressCreateActivity : AppCompatActivity() {
         toolbar = findViewById(R.id.toolbar)
         editTextRefPoint = findViewById(R.id.edittext_ref_point)
         editTextAddress = findViewById(R.id.edittext_address)
-        editTextNeighborhood = findViewById(R.id.edittext_neighborhood)
+        editTextNeightborhood = findViewById(R.id.edittext_neightborhood)
         buttonCreateAddress = findViewById(R.id.btn_create_address)
 
         toolbar?.setTitleTextColor(ContextCompat.getColor(this, R.color.black))
@@ -80,14 +80,14 @@ class ClientAddressCreateActivity : AppCompatActivity() {
     private fun createAddress() {
 
         val address = editTextAddress?.text.toString()
-        val neighborhood = editTextNeighborhood?.text.toString()
+        val neightborhood = editTextNeightborhood?.text.toString()
 
-        if (isValidForm(address, neighborhood)) {
+        if (isValidForm(address, neightborhood)) {
             // Lanzar la peticion
 
             val addressModel = Address(
                 address = address,
-                neighborhood = neighborhood,
+                neightborhood = neightborhood,
                 idUser = user?.id!!,
                 lat = addressLat,
                 lng = addressLng
@@ -120,13 +120,13 @@ class ClientAddressCreateActivity : AppCompatActivity() {
         startActivity(i)
     }
 
-    private fun isValidForm(address: String, neighborhood: String): Boolean {
+    private fun isValidForm(address: String, neightborhood: String): Boolean {
 
         if (address.isNullOrBlank()) {
             Toast.makeText(this, "Ingresa la direccion", Toast.LENGTH_SHORT).show()
             return false
         }
-        if (neighborhood.isNullOrBlank()) {
+        if (neightborhood.isNullOrBlank()) {
             Toast.makeText(this, "Ingresa el barrio o residencia", Toast.LENGTH_SHORT).show()
             return false
         }

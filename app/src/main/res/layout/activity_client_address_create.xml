@@ -37,7 +37,7 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/edittext_neighborhood"
+            android:id="@+id/edittext_neightborhood"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="Barrio"

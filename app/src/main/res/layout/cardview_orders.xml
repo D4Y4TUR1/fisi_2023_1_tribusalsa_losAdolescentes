@@ -20,7 +20,7 @@
             android:id="@+id/textview_order_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Orden"
+            android:text="Carrito"
             android:background="@color/gray"
             android:textSize="17sp"
             android:textStyle="bold"
