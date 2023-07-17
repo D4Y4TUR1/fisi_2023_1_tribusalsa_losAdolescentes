@@ -102,7 +102,7 @@ class ClientProductsDetailActivity : AppCompatActivity() {
                 textViewCounter?.text = "${product?.quantity}"
                 productPrice = product?.price!! * product?.quantity!!
                 textViewPrice?.text = "${productPrice}$"
-                buttonAdd?.setText("Editar producto")
+                buttonAdd?.setText("Agregar producto")
                 buttonAdd?.backgroundTintList = ColorStateList.valueOf(Color.RED)
             }
 
